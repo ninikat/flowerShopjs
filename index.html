@@ -1,0 +1,38 @@
+<html>
+   <head>
+      <title> Flower shop</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+        <h2 class="text-center"> Mariah Carey's flower shop</h2>
+         <button id="viewAll" class=" btn mb-5 mt-3 btn-warning">View all Flowers</button>
+         <div class="row">
+            <div class="col-md-6">
+               <div id="flowerList">
+               </div>
+            </div>
+            <div class="col-md-6">
+               <h2> Add a flower</h2>
+               <form id="addFlower" class="mb-4">
+                  <div class="form-group">
+                     <input type="title" id="title" class="form-control" placeholder="Enter Title">
+                  </div>
+                  <div class="form-group">
+                     <textarea id="description" class="form-control" placeholder="Enter Description"></textarea>
+                  </div>
+                  <div class="form-group">
+                     <textarea id="url" class="form-control" placeholder="Enter URL "></textarea>
+                  </div>
+                  <input type="submit" class="btn btn-secondary" value="Submit">
+                   <small> Click on "View all flowers" after submitting to see the updated list</small>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="js/app.js" type="text/javascript"></script> 
+</html>
