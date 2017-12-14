@@ -3,6 +3,11 @@
     width: 375px;
 }
 
-h2{
+* {
      font-family: 'Alice', serif;
+    
+}
+
+* {
+    background-color: #C8D3CD;
 }
