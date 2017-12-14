@@ -42,12 +42,14 @@ function addFlower(e){
     description : newDescription,
     imageURL : newURL
   })
-   .then(function(res){
+  
+}).then(function (response) {
+    
       displayFlowers() 
-   })
-})
+    
+}) 
 
-displayFlowers()    
+//displayFlowers()    
     
 }
 
